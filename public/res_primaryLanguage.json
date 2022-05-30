@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "description_header": "Hi",
-    "description": "I am responsible for developing apps and websites. For back-end, I mainly use .NET Core. Besides gaining further experience in Angular and C#, I am also working on extending my front-end skills in React.",
+    "description": "I’m a Fullstack developer, and I specialize in React, Nodejs web apps that just work across all platforms and browsers. I care deeply about building interfaces and large system that are usable and pleasant for the most number of people possible Currently working as a Software Engineer at Appzoy in Bengaluru, India. I am responsible for developing apps and websites. For frontend, I mainly use Reactjs and Redux for designing and maintaining UI, for back-end, I use Nodejs and Mongodb. Besides gaining strong Data Structure and Algorithm skills, I am also exploring TypeScript.",
     "section_name": {
       "about": "About me",
       "projects": "Projects",
@@ -15,13 +15,13 @@
       "startDate": "2020",
       "description": "React portfolio template that can be used by for e.g. other GitHub users. Porfolio includes separated sections(About, Projects, Skills, Experience). It also has multilingual support and light/dark theme setting.",
       "images": [
-          "images/portfolio/portfolio/header.png",
+          "images/portfolio/portfolio/s1.png",
           "images/portfolio/portfolio/about.png",
           "images/portfolio/portfolio/projects.png",
           "images/portfolio/portfolio/skills.png",
           "images/portfolio/portfolio/experience.png"
       ],
-      "url": "https://github.com/Dorota1997/react-frontend-dev-portfolio",
+      "url": "https://github.com/soumanpaul/Video-streaming-web-app",
       "technologies": [
         {
           "class": "devicon-react-original",
@@ -38,16 +38,16 @@
       ]
     },
     {
-      "title": "Cars App",
+      "title": "Media streaming App",
       "startDate": "2020",
-      "description": "Prepare front-end implementation in Angular 10 for modified API made in .NET Core 3.1. The application consists of two sections: dealers and orders with typical CRUD operations. It's also possible to filter data in the tables.",
+      "description": "Media streaming application, Inspired by features from Netflix and YouTube, this application will implement content uploading and viewing capabilities with a media content upload feature for content providers, and real-time content streaming for viewers.",
       "images": [
-          "images/portfolio/cars/cars1.PNG",
-          "images/portfolio/cars/cars2.PNG",
-          "images/portfolio/cars/cars3.PNG",
-          "images/portfolio/cars/cars4.PNG"
+          "images/portfolio/cars/s1.PNG",
+          "images/portfolio/cars/s2.PNG",
+          "images/portfolio/cars/s3.PNG",
+          "images/portfolio/cars/s4.PNG"
       ],
-      "url": "https://github.com/Dorota1997/cars-api-angular",
+      "url": "https://github.com/soumanpaul/Video-streaming-web-app",
       "technologies": [
         {
           "class": "devicon-angularjs-plain",
@@ -84,21 +84,13 @@
       ]
     },
     {
-      "title": "Animal Shelter",
+      "title": "Online Store",
       "startDate": "2019",
-      "description": "Real time web app made as a part of engineering work. Project is intended for shelters that specialize in dogs/cats adoptions. Animal Shelter administration can easily manage documentation, news and adoptions when app users can sign for adoption through application. App is using JWT, MDBootstrap and SignalR.",
+      "description": "An online marketplace application covering core aspects, such as support for seller accounts, product listings, a shopping cart for customers, and payment processing",
       "images": [
-          "images/portfolio/anim/anim1.PNG",
-          "images/portfolio/anim/anim2.PNG",
-          "images/portfolio/anim/anim3.PNG",
-          "images/portfolio/anim/anim5.PNG",
-          "images/portfolio/anim/anim6.PNG",
-          "images/portfolio/anim/anim7.PNG",
-          "images/portfolio/anim/anim8.PNG",
-          "images/portfolio/anim/anim9.PNG",
-          "images/portfolio/anim/anim10.PNG"
+          "images/portfolio/anim/s1.PNG"
       ],
-      "url": "",
+      "url": "https://github.com/soumanpaul/E-commerce-web-app",
       "technologies": [
         {
           "class": "devicon-angularjs-plain",
@@ -115,18 +107,18 @@
       ]
     },
     {
-      "title": "HRMaster",
+      "title": "Resturent Booking App",
       "startDate": "2019",
-      "description": "App made for Visacom Olsztyn company for university project that helps with managing recruitment process. HR Master was created with help of MDBootstrap framework, SignalR(to work in real time)and JWT(to auth it's users).",
+      "description": "Food Zone is a full-stack web application for Restaurant. It uses Reactjs and Redux for the front end, Nodejs, Expressjs and Mongodb as the back-end service, and the API service is built with REST API.",
       "images": [
-          "images/portfolio/hrmaster/hr1.PNG",
+          "images/portfolio/hrmaster/output.gif",
           "images/portfolio/hrmaster/hr2.PNG",
           "images/portfolio/hrmaster/hr4.PNG",
           "images/portfolio/hrmaster/hr5.PNG",
           "images/portfolio/hrmaster/hr7.PNG",
           "images/portfolio/hrmaster/hr9.PNG"
       ],
-      "url": "",
+      "url": "https://github.com/soumanpaul/FoodZone-web-app",
       "technologies": [
         {
           "class": "devicon-angularjs-plain",
@@ -143,11 +135,11 @@
       ]
     },
     {
-      "title": "Beer App",
+      "title": "Social Media App",
       "startDate": "2019",
-      "description": "Front-end implementation for Punk API that lists beers from which user can find alcohol that fits picked food. It's also possible to read beer ingredients by hovering with cursor on the beer card.",
+      "description": "Social Network is a full-stack web application for People to connect and make friend. It uses Reactjs and Redux for the front end, Nodejs, Expressjs and Mongodb as the back-end service, and the API service is built with REST API.",
       "images": [
-          "images/portfolio/beer/beer1.png",
+          "images/portfolio/beer/output.gif",
           "images/portfolio/beer/beer2.png",
           "images/portfolio/beer/beer3.png",
           "images/portfolio/beer/beer4.png",
@@ -155,7 +147,7 @@
           "images/portfolio/beer/beer6.png",
           "images/portfolio/beer/beer7.png"
       ],
-      "url": "https://github.com/Dorota1997/BeerApp",
+      "url": "https://github.com/soumanpaul/Social-Network-web-app",
       "technologies": [
         {
           "class": "devicon-angularjs-plain",
@@ -172,17 +164,17 @@
       ]
     },
     {
-      "title": "Billboard.js",
+      "title": "Movie Collection App",
       "startDate": "2018",
-      "description": "Create page project about Billboard.js library that allows to add interesting charts to the pages.",
+      "description": "Movie Search Web App using Reactjs, JavaScript, Reactivebase. Demo",
       "images": [
-          "images/portfolio/billbo/billbo1.PNG",
+          "images/portfolio/billbo/moviesearch.gif",
           "images/portfolio/billbo/billbo2.PNG",
           "images/portfolio/billbo/billbo3.PNG",
           "images/portfolio/billbo/billbo4.PNG",
           "images/portfolio/billbo/billbo5.PNG"
       ],
-      "url": "https://github.com/Dorota1997/Projektowanie_Stron/tree/master/Billboard.js",
+      "url": "https://github.com/soumanpaul/moviesearch",
       "technologies": [
         {
           "class": "devicon-html5-plain",
@@ -209,9 +201,9 @@
     {
       "title": "Trees",
       "startDate": "2018",
-      "description": "Everything about trees is my first web project which was created without any framework in order to practice skills in preparing basic page that later can be styled using css.",
+      "description": "Food Recipes Web App using Reactjs, Food2frok API",
       "images": [
-          "images/portfolio/trees/drzewa1.PNG",
+          "images/portfolio/trees/recipes.gif",
           "images/portfolio/trees/drzewa2.PNG",
           "images/portfolio/trees/drzewa3.PNG",
           "images/portfolio/trees/drzewa4.PNG",
@@ -219,7 +211,7 @@
           "images/portfolio/trees/drzewa6.PNG",
           "images/portfolio/trees/drzewa7.PNG"
       ],
-      "url": "https://github.com/Dorota1997/Projektowanie_Stron/tree/master/Projekt%20HTML%20%2B%20CSS",
+      "url": "https://github.com/soumanpaul/react-recipe-app",
       "technologies": [
         {
           "class": "devicon-html5-plain",

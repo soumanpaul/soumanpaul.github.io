@@ -18,8 +18,8 @@ export default function About({ resumeBasicInfo, sharedBasicInfo }) {
 				<h1 style={{ color: "black" }}>
 					<span>{resumeBasicInfo && resumeBasicInfo.section_name.about}</span>
 				</h1>
-				<div className="row center mx-auto mb-5">
-					<div className="col-md-4 mb-5 center">
+				<div className="row  mx-auto mb-5">
+					<div className="col-md-4 mb-5 ">
 						<div className="polaroid">
 							<span style={{ cursor: "auto" }}>
 								<img
@@ -43,7 +43,7 @@ export default function About({ resumeBasicInfo, sharedBasicInfo }) {
 						</div>
 					</div>
 
-					<div className="col-md-8 center">
+					<div className="col-md-8 mt-5 pt-5">
 						<div className="col-md-10">
 							<div className="card">
 								<div className="card-header">
@@ -74,7 +74,7 @@ export default function About({ resumeBasicInfo, sharedBasicInfo }) {
 									}}
 								>
 									<br />
-									<span className="wave">{resumeBasicInfo && resumeBasicInfo.description_header} :) </span>
+									<span className="wave">{resumeBasicInfo && resumeBasicInfo.description_header} : </span>
 									<br />
 									<br />
 									{resumeBasicInfo && resumeBasicInfo.description}

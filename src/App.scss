@@ -49,15 +49,25 @@ header {
 	width: 100%;
 	background-size: cover;
 	-webkit-background-size: cover;
-	text-align: center;
+	// text-align: center;
 	overflow: hidden;
-	// background-color: #e9d5a1;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	// padding-top: 150px;
-	padding-bottom: 0;
+	padding: 0;
+	margin: 0;
+}
+.tittel{
+	font-size: 5.56rem;
+  // line-height: 3.916rem;
+  margin: 1.78rem 0 1.424rem 0;
+	// text-align: center;
+	// font-weight: 600 !important;
+	color: #fff;
+	// font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	// margin: 0 auto 18px auto;
+	// width: 100%;
 }
 
 .language-icon {
@@ -398,6 +408,16 @@ header h1 {
 		margin-bottom: 30px;
 	}
 }
+#education{
+	background: #fff;
+	width: 85%;
+	float: right;
+}
+#contact{
+	background: #efe1bd;
+	width: 85%;
+	float: right;
+}
 
 #skills {
 	background: #1F1F1F;
@@ -428,7 +448,8 @@ header h1 {
 footer {
 	background: #1F1F1F;
 	min-height: 100px;
-	width: 100%;
+	width: 85%;
+	float: right;
 	overflow: hidden;
 	font-size: 14px;
 	color: white;

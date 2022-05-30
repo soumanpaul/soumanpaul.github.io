@@ -7,6 +7,8 @@ import Skills from './components/Skills';
 import Experience from './components/Experience';
 import Footer from './components/Footer';
 import SideBar from './components/SideBar';
+import Education from './components/Education';
+import Contact from './components/Contact';
 
 function App() {
 
@@ -58,10 +60,6 @@ function App() {
         resumeBasicInfo={resumeData.basic_info}
         sharedBasicInfo={sharedData.basic_info}
       />
-      <Projects
-        resumeProjects={resumeData.projects}
-        resumeBasicInfo={resumeData.basic_info}
-      />
       <Skills
         resumeBasicInfo={resumeData.basic_info}
         sharedSkills={sharedData.skills}
@@ -70,6 +68,14 @@ function App() {
         resumeExperience={resumeData.experience}
         resumeBasicInfo={resumeData.basic_info}
       />
+      <Projects
+        resumeProjects={resumeData.projects}
+        resumeBasicInfo={resumeData.basic_info}
+      />
+      <Education />
+
+      <Contact />
+
 
       <Footer
         sharedBasicInfo={sharedData.basic_info}

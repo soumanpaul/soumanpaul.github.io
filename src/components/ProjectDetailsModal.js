@@ -38,7 +38,7 @@ export default function ProjectDetailsModal({ show, onHide, data }) {
 	}
 
 	return (
-		<div> <Modal
+		<Modal
 			show={show}
 			onHide={onHide}
 			size="lg"
@@ -102,6 +102,6 @@ export default function ProjectDetailsModal({ show, onHide, data }) {
 					</div>
 				</div>
 			</div>
-		</Modal></div>
+		</Modal>
 	)
 }

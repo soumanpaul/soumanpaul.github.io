@@ -1,16 +1,12 @@
 .profile-pic {
   position: relative;
-  max-width:130px;
-  max-height:130px;
+  max-width:150px;
+  max-height:150px;
   width: auto;
   height: auto;
   overflow: hidden;
-  /* display: inline-block; */
-  
-  
-  /* background-size: cover;  */
-  margin: -31px; 
-  margin-left:-7px;
+  margin: -34px; 
+  margin-left:-6px;
   border: 6px solid rgba(0, 77, 64, 0.4); 
   border-radius: 50% !important;
 }
@@ -111,6 +107,7 @@
   letter-spacing: 1px;
   display: inline-block;
   margin-top: 1.5em;
+  margin-left: .5em;
   border-radius: 5px;
   -webkit-border-radius: 5px;
 }
@@ -123,21 +120,12 @@
 
 /* body-color */
 
-body {
-  color: #333;
-  font-size: 18px;
+.sidebar-size {
+  /* color: #333; */
+  font-size: 18px !important;
 }
 
-/* body {
-  color: black;
-  font-size: 18px;
-} */
 
-/* main a -- links */
-
-/* a {
-  color: #009688;
-} */
 
 a {
   color: #004d40;
@@ -307,7 +295,10 @@ h3 {
   padding-top: 0;
   position: relative;
 }
+a{
+  text-decoration: none !important;
 
+}
 .full-height {
   height: 100vh;
 }
@@ -327,9 +318,7 @@ h3 {
 #intro.section .container {
   color: white;
   font-weight: 200;
-  left: 0;
   position: absolute;
-  top: 0;
 }
 
 /* #intro.section .container *:not(span) {
@@ -354,7 +343,19 @@ h3 {
 #intro.section .teal {
   padding: 0 10px;
 }
+.typetext{
+  color: #004d40;
+}
 
+.description{
+  font-weight: 200;
+  font-size: 24.6px;
+  margin: 0.82rem 0 0.656rem 0;
+  /* font-family: ; */
+  /* margin-bottom: 60px; */
+  /* margin-top: 0; */
+  /* padding: 30px 40px; */
+}
 .overlay {
   background-color: rgba(0, 0, 0, 0.4);
   height: 100%;
@@ -429,6 +430,10 @@ h3 {
 .card-action span {
   font-size: 85%;
   color: #666;
+}
+ol,
+ul {
+  padding-left: 0rem !important;
 }
 
 .card ul {
