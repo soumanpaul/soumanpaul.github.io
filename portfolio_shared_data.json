@@ -5,59 +5,80 @@
       "social": [
         {
           "name": "github",
-          "url": "https://github.com",
+          "url": "https://github.com/soumanpaul",
           "class": "fab fa-github"
         },
         {
           "name": "instagram",
-          "url": "https://www.instagram.com",
-          "class": "fab fa-instagram"
+          "url": "https://www.linkedin.com/in/souman/",
+          "class": "fab fa-linkedin"
         }
       ],
       "image": "me.jpg"
     },
     "skills": {
-      "icons": [
+      "frentend": [
         {
-          "name": "HTML 5",
-          "class": "devicon-html5-plain",
-          "level": "95"
+          "name": "HTML5/CSS3"
         },
         {
-          "name": "CSS 3",
-          "class": "devicon-css3-plain",
-          "level": "95"
+          "name": ""
         },
         {
-          "name": "Reactjs",
-          "class": "devicon-angularjs-plain",
-          "level": "80"
+          "name": "Sass"
         },
         {
-          "name": "TypeScript",
-          "class": "devicon-typescript-plain",
-          "level": "90"
+          "name": "Bootstrap"
         },
         {
-          "name": "JavaScript",
-          "class": "devicon-javascript-plain",
-          "level": "70"
+          "name": "Reactjs"
         },
         {
-          "name": "Sass",
-          "class": "devicon-sass-original",
-          "level": "75"
+          "name": "Redux"
         },
         {
-          "name": "Bootstrap",
-          "class": "devicon-bootstrap-plain",
-          "level": "85"
+          "name": "TypeScript"
         },
         {
-          "name": "MySql",
-          "class": "devicon-mysql-plain",
-          "level": "60"
+          "name": "JavaScript"
         }
-      ]
+       
+        
+      ],
+      "backend": [
+        {
+          "name": "Nodejs"
+        },
+        {
+          "name": "Express"
+        },
+        {
+          "name": "MongoDB"
+        },
+        {
+          "name": "MySQL"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Git"
+        },
+        {
+          "name": "Gulp"
+        },
+        {
+          "name": "Webpack"
+        },
+        {
+          "name": "VScode"
+        }],
+        "cloud": [
+          {
+            "name": "AWS"
+          },
+          {
+            "name": "GCP"
+          }
+        ]
     }
   }

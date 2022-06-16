@@ -42,7 +42,7 @@
       "startDate": "2020",
       "description": "Media streaming application, Inspired by features from Netflix and YouTube, this application will implement content uploading and viewing capabilities with a media content upload feature for content providers, and real-time content streaming for viewers.",
       "images": [
-          "images/portfolio/cars/s1.PNG",
+          "images/portfolio/cars/s1.png",
           "images/portfolio/cars/s2.PNG",
           "images/portfolio/cars/s3.PNG",
           "images/portfolio/cars/s4.PNG"
@@ -71,7 +71,7 @@
           "images/portfolio/covid/covid1.PNG",
           "images/portfolio/covid/covid2.PNG"
       ],
-      "url": "https://github.com/Dorota1997/reactJS-covid-tracker",
+      "url": "https://github.com/soumanpaul/reactJS-covid-tracker",
       "technologies": [
         {
           "class": "devicon-react-original",
@@ -88,7 +88,7 @@
       "startDate": "2019",
       "description": "An online marketplace application covering core aspects, such as support for seller accounts, product listings, a shopping cart for customers, and payment processing",
       "images": [
-          "images/portfolio/anim/s1.PNG"
+          "images/portfolio/anim/s1.png"
       ],
       "url": "https://github.com/soumanpaul/E-commerce-web-app",
       "technologies": [
@@ -228,13 +228,14 @@
     {
       "company": "Appzoy Technology Pvt.",
       "title": "Full-Stack Developer",
-      "years": "01-10.2019 - Current",
+      "years": "10-02-2020 - Current",
       "mainTech": [
           "Reactjs 17/18"
       ],
       "technologies": [
-          "REST API",
+          "Reactjs 17/18",
           "Redux",
+          "HTML/CSS",
           "JavaScript",
           "TypeScript",
           "JWT",
@@ -244,5 +245,16 @@
           "Docker"
       ]
     }
-  ]
+  ],
+  "educations": [
+    {
+      "institution": "Techno India University",
+      "degree": "Bachelor of Technology, CSE",
+      "years": "(2014-2018)",
+      "cgpa": "7.2/10",
+      "mainTech": [
+          "Computer Science"
+      ],
+      "url": "https://www.technoindiauniversity.com/"
+    }]
 }
