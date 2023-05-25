@@ -64,26 +64,6 @@
       ]
     },
     {
-      "title": "Covid App",
-      "startDate": "2020",
-      "description": "Tiny app that shows number of illnesses, recoveries and deaths due to coronavirus pandemy in selected country. Covid app is my first approach to React framework.",
-      "images": [
-          "images/portfolio/covid/covid1.PNG",
-          "images/portfolio/covid/covid2.PNG"
-      ],
-      "url": "https://github.com/Dorota1997/reactJS-covid-tracker",
-      "technologies": [
-        {
-          "class": "devicon-react-original",
-          "name": "React"
-        },
-        {
-          "class": "devicon-javascript-plain",
-          "name": "JavaScript"
-        }
-      ]
-    },
-    {
       "title": "Online Store",
       "startDate": "2019",
       "description": "An online marketplace application covering core aspects, such as support for seller accounts, product listings, a shopping cart for customers, and payment processing",
