@@ -3,7 +3,6 @@
 import { motion, easeOut } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import Image from "next/image";
 import { Typewriter } from "react-simple-typewriter";
 import SectionContainer from "@/components/section-container";
 import { useState } from "react";
@@ -80,13 +79,20 @@ export default function HeroSection() {
               }
               className="relative w-full h-full rounded-full overflow-hidden border-2 border-primary/20 bg-background shadow-xl"
             >
-              <Image
-                src={profileData.avatar || "/profile.jpg"}
-                alt={profileData.name}
-                fill
-                className="object-cover"
-                priority
-              />
+              <picture>
+                <source
+                  srcSet={profileData.avatar || "/profile.heic"}
+                  type="image/heic"
+                />
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src="/profile.jpg"
+                  alt={profileData.name}
+                  className="h-full w-full object-cover"
+                  loading="eager"
+                  fetchPriority="high"
+                />
+              </picture>
             </motion.div>
           </motion.div>
 
