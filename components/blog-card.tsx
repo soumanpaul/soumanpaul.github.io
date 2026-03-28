@@ -68,7 +68,7 @@ export default function BlogCard({
         <ContentCard
             title={post.title}
             description={post.description}
-            image={post.image || "/profile.jpg"}
+            image={post.image || "/profile.png"}
             href={`/blog/${post.slug}`}
             tags={post.tags}
             badges={badges}

@@ -18,7 +18,7 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || siteConfig.siteUrl;
 const socialUrls = profileData.socialLinks
   .map((link) => link.url)
   .filter((url) => url.startsWith("http"));
-const avatarPath = profileData.avatar || "/profile.jpg";
+const avatarPath = profileData.avatar || "/profile.png";
 
 export const metadata: Metadata = {
   title: {

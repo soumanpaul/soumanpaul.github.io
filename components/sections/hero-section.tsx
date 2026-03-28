@@ -81,7 +81,7 @@ export default function HeroSection() {
               className="relative w-full h-full rounded-full overflow-hidden border-2 border-primary/20 bg-background shadow-xl"
             >
               <Image
-                src={profileData.avatar || "/profile.jpg"}
+                src={profileData.avatar || "/profile.png"}
                 alt={profileData.name}
                 fill
                 className="object-cover"
