@@ -31,7 +31,7 @@ export const profileData: ProfileData = {
   location: "Bengaluru, India",
   avatar: "/profile.png",
   resume: "/Souman-Paul-Resume.pdf",
-  calLink: "https://cal.com",
+  calLink: "https://cal.com/souman",
   yearsOfExperience: "6+ years experience",
   availability: "Open to senior product and platform engineering conversations",
   heroRoles: [
