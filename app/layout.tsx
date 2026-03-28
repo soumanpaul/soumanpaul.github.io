@@ -19,7 +19,6 @@ const socialUrls = profileData.socialLinks
   .map((link) => link.url)
   .filter((url) => url.startsWith("http"));
 const avatarPath = profileData.avatar || "/profile.jpg";
-const metadataAvatarPath = "/profile.jpg";
 
 export const metadata: Metadata = {
   title: {
@@ -49,7 +48,7 @@ export const metadata: Metadata = {
     siteName: siteConfig.siteName,
     images: [
       {
-        url: metadataAvatarPath,
+        url: avatarPath,
         alt: `${profileData.name} profile photo`,
       },
     ],
@@ -60,7 +59,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: `${profileData.name} | ${profileData.tagline}`,
     description: siteConfig.description,
-    images: [metadataAvatarPath],
+    images: [avatarPath],
   },
   robots: {
     index: true,
@@ -112,7 +111,7 @@ export default function RootLayout({
         "@id": `${siteUrl}/#person`,
         name: profileData.name,
         url: siteUrl,
-        image: `${siteUrl}${metadataAvatarPath}`,
+        image: `${siteUrl}${avatarPath}`,
         jobTitle: profileData.tagline,
         description: profileData.bio,
         sameAs: socialUrls,
