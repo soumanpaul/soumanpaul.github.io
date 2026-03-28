@@ -29,7 +29,7 @@ export const profileData: ProfileData = {
   email: "paul1729blr@gmail.com",
   phone: "+91 70413 7924",
   location: "Bengaluru, India",
-  avatar: "/profile.jpg",
+  avatar: "/profile.heic",
   resume: "/Souman-Paul-Resume.pdf",
   yearsOfExperience: "6+ years experience",
   availability: "Open to senior product and platform engineering conversations",
