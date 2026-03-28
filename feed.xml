@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Souman Paul - Writing</title>
+    <link>https://soumanpaul.github.io/blog/</link>
+    <description>Portfolio of Souman Paul, a full stack engineer, AI product builder, and GenAI systems builder focused on scalable web platforms, backend architecture, and applied AI workflows.</description>
+    <language>en-US</language>
+    <managingEditor>paul1729blr@gmail.com (Souman Paul)</managingEditor>
+    <webMaster>paul1729blr@gmail.com (Souman Paul)</webMaster>
+    <lastBuildDate>Sat, 28 Mar 2026 00:00:00 GMT</lastBuildDate>
+    <atom:link href="https://soumanpaul.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <image>
+      <url>https://soumanpaul.github.io/profile.jpg</url>
+      <title>Souman Paul - Writing</title>
+      <link>https://soumanpaul.github.io/</link>
+    </image>
+    <item>
+      <title>BFF Frontend Architecture: Why It Keeps Complex UIs Sane</title>
+      <link>https://soumanpaul.github.io/blog/bff-frontend-architecture/</link>
+      <guid isPermaLink="true">https://soumanpaul.github.io/blog/bff-frontend-architecture/</guid>
+      <description>A practical look at the Backend-for-Frontend pattern, where it fits, and how it helps frontend teams ship faster without leaking backend complexity into the UI.</description>
+      <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
+      <author>paul1729blr@gmail.com (Souman Paul)</author>
+      <category>Architecture</category>
+      <category>Frontend</category>
+      <category>BFF</category>
+      <category>APIs</category>
+    </item>
+    <item>
+      <title>OAuth 2.0 in Practice: Flows, Tokens, and the Parts That Matter</title>
+      <link>https://soumanpaul.github.io/blog/oauth2-practical-guide/</link>
+      <guid isPermaLink="true">https://soumanpaul.github.io/blog/oauth2-practical-guide/</guid>
+      <description>A practical explanation of OAuth 2.0 for product engineers: what problem it solves, how the authorization code flow works, and the mistakes that usually cause security bugs.</description>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 GMT</pubDate>
+      <author>paul1729blr@gmail.com (Souman Paul)</author>
+      <category>Security</category>
+      <category>OAuth 2.0</category>
+      <category>Auth</category>
+      <category>Frontend</category>
+    </item>
+  </channel>
+</rss>
