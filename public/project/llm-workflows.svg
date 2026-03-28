@@ -1,0 +1,22 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" rx="32" fill="#111827"/>
+  <rect x="48" y="48" width="1104" height="534" rx="28" fill="url(#paint0_linear)"/>
+  <circle cx="220" cy="190" r="64" fill="#111827" fill-opacity="0.58"/>
+  <circle cx="220" cy="326" r="64" fill="#111827" fill-opacity="0.58"/>
+  <circle cx="220" cy="462" r="64" fill="#111827" fill-opacity="0.58"/>
+  <path d="M284 190H438" stroke="#F9FAFB" stroke-opacity="0.45" stroke-width="10" stroke-linecap="round"/>
+  <path d="M284 326H438" stroke="#F9FAFB" stroke-opacity="0.45" stroke-width="10" stroke-linecap="round"/>
+  <path d="M284 462H438" stroke="#F9FAFB" stroke-opacity="0.45" stroke-width="10" stroke-linecap="round"/>
+  <rect x="470" y="124" width="610" height="92" rx="24" fill="#111827" fill-opacity="0.45"/>
+  <rect x="470" y="250" width="610" height="92" rx="24" fill="#111827" fill-opacity="0.32"/>
+  <rect x="470" y="376" width="610" height="92" rx="24" fill="#111827" fill-opacity="0.22"/>
+  <text x="118" y="560" fill="#E5E7EB" font-family="Arial, sans-serif" font-size="54" font-weight="700">LLM Workflow Integrations</text>
+  <text x="118" y="602" fill="#CBD5E1" font-family="Arial, sans-serif" font-size="22">Summarization, semantic search, and async document processing</text>
+  <defs>
+    <linearGradient id="paint0_linear" x1="96" y1="90" x2="1100" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7C3AED"/>
+      <stop offset="0.5" stop-color="#4F46E5"/>
+      <stop offset="1" stop-color="#0F766E"/>
+    </linearGradient>
+  </defs>
+</svg>

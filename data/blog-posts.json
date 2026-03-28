@@ -1,0 +1,63 @@
+[
+  {
+    "slug": "bff-frontend-architecture",
+    "title": "BFF Frontend Architecture: Why It Keeps Complex UIs Sane",
+    "date": "2026-03-20",
+    "author": "Souman Paul",
+    "description": "A practical look at the Backend-for-Frontend pattern, where it fits, and how it helps frontend teams ship faster without leaking backend complexity into the UI.",
+    "tags": ["Architecture", "Frontend", "BFF", "APIs"],
+    "featured": true,
+    "readTime": "6 min read",
+    "image": "/blog/bff-frontend-architecture/cover.svg",
+    "contentBlocks": [
+      "The Backend-for-Frontend pattern is one of the most useful architectural tools for modern product teams. It gives each frontend surface a backend layer that is shaped around its exact needs instead of forcing the UI to orchestrate multiple generic services on its own.",
+      "## Why the BFF pattern exists",
+      "In many products, the frontend needs data from several services at once. Without a BFF, the browser ends up stitching together calls to auth, user profile, notifications, entitlements, billing, and feature flags. That makes the frontend heavier, slower, and harder to reason about.",
+      "A BFF gives the UI one purpose-built integration point. It can aggregate data, hide service boundaries, normalize inconsistent payloads, and reduce chatty round trips into a single request that better matches the screen the user actually sees.",
+      "## What a BFF usually does",
+      "- Aggregates data from multiple backend services into one screen-shaped response.\n- Applies frontend-specific authorization and feature gating.\n- Adapts payloads so web and mobile clients do not each duplicate mapping logic.\n- Handles retries, caching, and partial-failure behavior in one place.\n- Keeps internal service topology out of the browser.",
+      "## A simple mental model",
+      "Think of domain services as being optimized for business capabilities, while the BFF is optimized for user experience delivery. The service layer answers domain questions. The BFF answers page and interaction questions.",
+      "```ts\n// Example: one endpoint shaped for a dashboard screen\nexport async function getDashboardView(userId: string) {\n  const [profile, notifications, projects] = await Promise.all([\n    profileService.getProfile(userId),\n    notificationService.getUnread(userId),\n    projectService.getRecentProjects(userId),\n  ]);\n\n  return {\n    user: {\n      name: profile.name,\n      role: profile.role,\n      avatar: profile.avatar,\n    },\n    unreadCount: notifications.total,\n    recentProjects: projects.items,\n  };\n}\n```",
+      "## When BFF is a good fit",
+      "BFF works especially well when you have multiple clients with different needs, such as web, admin, and mobile. It is also valuable when service boundaries are stable but UI requirements change quickly, because the BFF becomes the adaptation layer between those two rates of change.",
+      "## Tradeoffs to watch",
+      "BFF is not free. It adds another deployable unit, another ownership boundary, and another place where business logic can accidentally drift. The pattern works best when you keep domain rules in core services and reserve the BFF for composition, shaping, and client-oriented orchestration.",
+      "## Practical checklist",
+      "- Keep the BFF close to the frontend team that owns the experience.\n- Do not duplicate domain rules that should stay in platform services.\n- Shape responses around user journeys, not database entities.\n- Centralize caching, feature flags, and resilience logic where it helps the client.\n- Measure whether the BFF actually reduces frontend complexity and request cost.",
+      "## Final takeaway",
+      "BFF is most effective when the UI is moving fast and the service landscape is already split across multiple domains. Used well, it lowers frontend complexity, improves performance, and gives teams a safer place to adapt backend systems to real product workflows."
+    ]
+  },
+  {
+    "slug": "oauth2-practical-guide",
+    "title": "OAuth 2.0 in Practice: Flows, Tokens, and the Parts That Matter",
+    "date": "2026-03-23",
+    "author": "Souman Paul",
+    "description": "A practical explanation of OAuth 2.0 for product engineers: what problem it solves, how the authorization code flow works, and the mistakes that usually cause security bugs.",
+    "tags": ["Security", "OAuth 2.0", "Auth", "Frontend"],
+    "featured": true,
+    "readTime": "7 min read",
+    "image": "/blog/oauth2-practical-guide/cover.svg",
+    "contentBlocks": [
+      "OAuth 2.0 is often introduced as a specification full of actors, grants, redirects, and tokens. In practice, what matters is much simpler: it is a delegated authorization model that lets one application access another system on behalf of a user without sharing the user's password.",
+      "## The core problem OAuth 2.0 solves",
+      "If every third-party app asked for a user's primary login credentials, the blast radius of a compromise would be enormous. OAuth 2.0 replaces that with a permission grant mediated by an authorization server and represented through scoped tokens.",
+      "## The main actors",
+      "- **Resource Owner**: usually the user.\n- **Client Application**: the app requesting access.\n- **Authorization Server**: the system that authenticates the user and issues tokens.\n- **Resource Server**: the API that accepts those tokens.",
+      "## The flow most frontend teams should know",
+      "For modern web apps and mobile apps, the most important flow is **Authorization Code with PKCE**. The user signs in through the authorization server, the app receives an authorization code, and that code is exchanged for tokens in a secure way that protects against interception and replay.",
+      "```text\n1. User clicks Sign in\n2. App redirects to authorization server\n3. User authenticates and approves scopes\n4. Authorization server redirects back with code\n5. App exchanges code + PKCE verifier for tokens\n6. API calls use the access token\n```",
+      "## Access token vs refresh token",
+      "The access token is short-lived and is what your app sends to APIs. The refresh token is longer-lived and is used to obtain a new access token without forcing the user to sign in again. Treat refresh tokens as highly sensitive credentials and avoid exposing them directly to insecure frontend storage patterns.",
+      "## Common mistakes teams make",
+      "- Confusing authentication with authorization.\n- Storing long-lived tokens in unsafe places.\n- Using scopes that are broader than the app really needs.\n- Skipping PKCE for public clients.\n- Trusting token contents without validating issuer, audience, expiry, and signature rules.",
+      "## What frontend engineers should care about",
+      "From the frontend perspective, the real job is redirect handling, session continuity, token lifetime awareness, and minimizing security footguns. That usually means relying on a trusted auth library or identity provider SDK instead of hand-rolling the protocol details.",
+      "## Security checklist",
+      "- Prefer authorization code flow with PKCE for browser and mobile apps.\n- Keep access tokens short-lived.\n- Use least-privilege scopes.\n- Validate redirect URIs strictly.\n- Separate app session handling from raw OAuth token handling where possible.",
+      "## Final takeaway",
+      "OAuth 2.0 becomes much less intimidating when you focus on the actual outcome: safe delegation. For product teams, the useful question is not whether you can explain every clause of the spec, but whether your implementation protects tokens, uses the right flow, and keeps privilege boundaries tight."
+    ]
+  }
+]
