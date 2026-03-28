@@ -11,9 +11,9 @@ import {
   MapPin,
   Briefcase,
   Clock,
+  Calendar,
   Mail,
   FileText,
-  Phone,
 } from "lucide-react";
 import { SiGithub, SiLinkedin, SiX } from "react-icons/si";
 import { profileData } from "@/data/profile";
@@ -212,7 +212,7 @@ export default function HeroSection() {
                 variant="outline"
                 className="rounded-full px-5 font-semibold border-border/50 gap-2"
               >
-                <Phone className="w-3.5 h-3.5" />
+                <Calendar className="w-3.5 h-3.5" />
                 Book Call
               </Button>
             </a>

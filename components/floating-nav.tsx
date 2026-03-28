@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import type { ComponentType } from "react";
 import {
+  Calendar,
   Github,
   Linkedin,
   Mail,
@@ -37,6 +38,16 @@ export default function FloatingNav() {
   }, []);
 
   const socialLinks: SocialLink[] = [
+    ...(profileData.calLink
+      ? [
+          {
+            icon: Calendar,
+            href: profileData.calLink,
+            label: "Book Call",
+            openInNewTab: true,
+          },
+        ]
+      : []),
     ...(profileData.resume
       ? [
           {
