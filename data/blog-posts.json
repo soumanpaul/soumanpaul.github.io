@@ -59,5 +59,37 @@
       "## Final takeaway",
       "OAuth 2.0 becomes much less intimidating when you focus on the actual outcome: safe delegation. For product teams, the useful question is not whether you can explain every clause of the spec, but whether your implementation protects tokens, uses the right flow, and keeps privilege boundaries tight."
     ]
+  },
+  {
+    "slug": "codex-build-ship-faster",
+    "title": "How I Use Codex to Build and Ship Products Faster",
+    "date": "2026-03-29",
+    "author": "Souman Paul",
+    "description": "A practical guide to using Codex as a development multiplier: understanding codebases faster, reducing repetitive work, and tightening the loop from idea to shipped product.",
+    "tags": ["AI Engineering", "Developer Productivity", "Codex", "Product Engineering"],
+    "featured": true,
+    "readTime": "7 min read",
+    "image": "/blog/codex-build-ship-faster/cover.svg",
+    "contentBlocks": [
+      "After 6.5+ years of building products, I have become skeptical of tools that promise speed but mostly create cleanup work. Codex is useful when it is treated as an execution multiplier inside a disciplined engineering workflow, not as a replacement for judgment.",
+      "## Where Codex actually improves development efficiency",
+      "The biggest gain is not that it writes code from scratch. The real gain is that it shortens the distance between intent and implementation. It helps me inspect unfamiliar files faster, draft changes across repetitive surfaces, propose safer refactors, and reduce the time spent on low-leverage glue work.",
+      "## The product-building loop it accelerates",
+      "When building and shipping products, there are usually four expensive phases: understanding the existing system, making the change, validating the behavior, and packaging the result for release. Codex can help in every one of those phases if the prompts are concrete and the acceptance bar is clear.",
+      "- **Understand faster**: ask it to trace how a feature works through routes, components, services, and data models.\n- **Implement faster**: use it for repetitive edits, scaffolding, wiring, and first-pass code generation.\n- **Review faster**: have it spot edge cases, regressions, and missing tests before you open a PR.\n- **Ship faster**: use it to summarize changes, update docs, and tighten release notes with less manual effort.",
+      "## What I delegate to Codex",
+      "Codex is especially effective for bounded engineering tasks. I use it to add CRUD surfaces, connect APIs to UI layers, generate migration-safe boilerplate, draft test cases, explain legacy modules, and convert rough product requirements into concrete implementation steps.",
+      "```ts\n// Example: turn a product ask into an executable engineering checklist\nconst featureRequest = {\n  goal: 'Add team invite flow to the dashboard',\n  constraints: ['Keep existing auth model', 'Track invite status', 'Support resend'],\n};\n\nconst codexPrompt = `\nInspect the current dashboard, invitation, and auth code paths.\nIdentify the files that need changes.\nImplement the invite flow end-to-end.\nAdd validation and tests for resend + expired invite states.\nSummarize the final diff and any assumptions.\n`;\n```",
+      "## How to get better output",
+      "The quality of the result depends heavily on context quality. Codex performs best when the task includes the target files, the expected behavior, the constraints that cannot be violated, and the exact definition of done. Vague prompts produce plausible but expensive output. Specific prompts produce usable work.",
+      "## Guardrails that keep speed from turning into risk",
+      "I do not let AI-generated velocity bypass engineering standards. Every Codex-assisted change still needs local verification, test coverage where it matters, and a quick sanity pass on naming, error handling, and data flow boundaries. The tool is fast, but the acceptance bar should stay human.",
+      "## A practical workflow that works well",
+      "- Start with a narrow objective and point Codex at the relevant part of the codebase.\n- Ask it to explain the current implementation before changing anything substantial.\n- Let it make the repetitive or cross-file edits that would otherwise burn time.\n- Run tests, inspect the diff, and tighten the rough edges yourself.\n- Use it again for PR summaries, documentation updates, and follow-up cleanup tasks.",
+      "## Where teams get the most value",
+      "Teams building product-heavy software benefit the most when they use Codex to compress execution overhead, not to outsource ownership. That includes startup teams shipping quickly, platform teams maintaining broad internal surfaces, and full stack engineers moving between frontend, backend, and infra concerns in the same week.",
+      "## Final takeaway",
+      "Codex improves development efficiency when it is embedded into a real shipping workflow: clear scope, strong constraints, human review, and fast validation. Used that way, it helps reduce cycle time, preserve focus, and move products from idea to release with less friction."
+    ]
   }
 ]

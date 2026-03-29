@@ -32,7 +32,7 @@ export const profileData: ProfileData = {
   avatar: "/profile.png",
   resume: "/Souman-Paul-Resume.pdf",
   calLink: "https://cal.com/souman",
-  yearsOfExperience: "6+ years experience",
+  yearsOfExperience: "6.5+ years experience",
   availability: "Open to senior product and platform engineering conversations",
   heroRoles: [
     "Full Stack Engineer",
