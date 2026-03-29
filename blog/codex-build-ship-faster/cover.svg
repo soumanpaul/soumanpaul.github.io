@@ -1,0 +1,35 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" rx="32" fill="#08111A"/>
+  <rect x="40" y="40" width="1120" height="550" rx="28" fill="url(#bg)"/>
+  <rect x="92" y="128" width="292" height="352" rx="26" fill="#0F172A" fill-opacity="0.78" stroke="#5EEAD4" stroke-opacity="0.3"/>
+  <rect x="446" y="118" width="222" height="108" rx="22" fill="#0F172A" fill-opacity="0.74" stroke="#7DD3FC" stroke-opacity="0.34"/>
+  <rect x="446" y="262" width="222" height="108" rx="22" fill="#0F172A" fill-opacity="0.74" stroke="#F59E0B" stroke-opacity="0.34"/>
+  <rect x="446" y="406" width="222" height="108" rx="22" fill="#0F172A" fill-opacity="0.74" stroke="#34D399" stroke-opacity="0.34"/>
+  <rect x="748" y="170" width="344" height="292" rx="26" fill="#020617" fill-opacity="0.5" stroke="#F8FAFC" stroke-opacity="0.12"/>
+  <path d="M384 302H446" stroke="#99F6E4" stroke-width="12" stroke-linecap="round"/>
+  <path d="M668 172H748" stroke="#BAE6FD" stroke-width="12" stroke-linecap="round"/>
+  <path d="M668 316H748" stroke="#FCD34D" stroke-width="12" stroke-linecap="round"/>
+  <path d="M668 460H748" stroke="#86EFAC" stroke-width="12" stroke-linecap="round"/>
+  <text x="126" y="198" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="34" font-weight="700">Build Brief</text>
+  <text x="126" y="246" fill="#CBD5E1" font-family="Arial, sans-serif" font-size="24">Scope</text>
+  <text x="126" y="284" fill="#CBD5E1" font-family="Arial, sans-serif" font-size="24">Constraints</text>
+  <text x="126" y="322" fill="#CBD5E1" font-family="Arial, sans-serif" font-size="24">Acceptance</text>
+  <text x="498" y="184" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="28" font-weight="700">Codex</text>
+  <text x="486" y="328" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="28" font-weight="700">Tests</text>
+  <text x="484" y="472" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="28" font-weight="700">Ship</text>
+  <text x="794" y="232" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="24" font-weight="700">Product Loop</text>
+  <text x="794" y="286" fill="#CBD5E1" font-family="Arial, sans-serif" font-size="22">Understand</text>
+  <text x="794" y="330" fill="#CBD5E1" font-family="Arial, sans-serif" font-size="22">Implement</text>
+  <text x="794" y="374" fill="#CBD5E1" font-family="Arial, sans-serif" font-size="22">Validate</text>
+  <text x="794" y="418" fill="#CBD5E1" font-family="Arial, sans-serif" font-size="22">Release</text>
+  <text x="88" y="544" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="42" font-weight="700">How I Use Codex to Build and</text>
+  <text x="88" y="590" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="42" font-weight="700">Ship Products Faster</text>
+  <text x="88" y="618" fill="#CBD5E1" font-family="Arial, sans-serif" font-size="18">A practical workflow for faster execution, safer review, and tighter delivery loops</text>
+  <defs>
+    <linearGradient id="bg" x1="90" y1="76" x2="1098" y2="566" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="0.5" stop-color="#132033"/>
+      <stop offset="1" stop-color="#134E4A"/>
+    </linearGradient>
+  </defs>
+</svg>
